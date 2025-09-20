@@ -6,7 +6,7 @@ NCCL_P2P_LEVEL=SYS \
 NCCL_P2P_DISABLE=0 \
 VLLM_WORKER_MULTIPROC_METHOD=spawn \
 VLLM_MLA_DISABLE=1 \
-VLLM_USE_V1=1 \
+VLLM_USE_V1=0 \
 vllm serve \
 	/home/ubuntu/.cache/modelscope/hub/models/deepseek-ai/DeepSeek-R1-Distill-Llama-70B \
        --block-size 16 \
