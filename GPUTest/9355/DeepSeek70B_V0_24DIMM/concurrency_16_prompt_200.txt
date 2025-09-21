@@ -1,26 +1,26 @@
 ============ Serving Benchmark Result ============
 Successful requests:                     200
 Maximum request concurrency:             16
-Benchmark duration (s):                  233.56
+Benchmark duration (s):                  259.83
 Total input tokens:                      43477
-Total generated tokens:                  135898
-Request throughput (req/s):              0.86
-Output token throughput (tok/s):         581.85
-Total Token throughput (tok/s):          768.00
+Total generated tokens:                  136268
+Request throughput (req/s):              0.77
+Output token throughput (tok/s):         524.46
+Total Token throughput (tok/s):          691.79
 ---------------Time to First Token----------------
-Mean TTFT (ms):                          206.61
-Median TTFT (ms):                        122.82
-P90 TTFT (ms):                           566.20
-P99 TTFT (ms):                           638.72
+Mean TTFT (ms):                          247.19
+Median TTFT (ms):                        150.27
+P90 TTFT (ms):                           687.23
+P99 TTFT (ms):                           781.52
 -----Time per Output Token (excl. 1st token)------
-Mean TPOT (ms):                          26.40
-Median TPOT (ms):                        26.09
-P90 TPOT (ms):                           26.60
-P99 TPOT (ms):                           29.56
+Mean TPOT (ms):                          29.29
+Median TPOT (ms):                        28.95
+P90 TPOT (ms):                           29.52
+P99 TPOT (ms):                           31.48
 ---------------Inter-token Latency----------------
-Mean ITL (ms):                           26.08
-Median ITL (ms):                         25.27
-P90 ITL (ms):                            25.52
-P99 ITL (ms):                            48.67
+Mean ITL (ms):                           28.93
+Median ITL (ms):                         27.92
+P90 ITL (ms):                            28.17
+P99 ITL (ms):                            50.66
 ==================================================
 
