@@ -12,7 +12,7 @@ vllm bench serve \
 	--dataset-name "sharegpt" \
 	--dataset-path "/home/ubuntu/.src/github.com/share/GPUTest/ShareGPT_V3_unfiltered_cleaned_split.json"\
 	--num-prompts $1 \
-	--sharegpt-output-len 2048 \
+	--sharegpt-output-len 1024 \
 	--max-concurrency $2 \
 	--burstiness 1.0 \
 	--percentile-metrics "ttft,tpot,itl" \
