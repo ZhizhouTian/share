@@ -1,0 +1,41 @@
+============ Serving Benchmark Result ============
+Successful requests:                     3000      
+Benchmark duration (s):                  981.20    
+Total input tokens:                      696991    
+Total generated tokens:                  2014714   
+Request throughput (req/s):              3.06      
+Output token throughput (tok/s):         2053.31   
+Total Token throughput (tok/s):          2763.65   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          1554.92   
+Median TTFT (ms):                        204.80    
+P50 TTFT (ms):                           204.80    
+P75 TTFT (ms):                           1055.89   
+P90 TTFT (ms):                           5927.15   
+P95 TTFT (ms):                           8653.12   
+P99 TTFT (ms):                           11920.11  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          123.33    
+Median TPOT (ms):                        122.26    
+P50 TPOT (ms):                           122.26    
+P75 TPOT (ms):                           124.12    
+P90 TPOT (ms):                           127.61    
+P95 TPOT (ms):                           130.76    
+P99 TPOT (ms):                           214.71    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           119.00    
+Median ITL (ms):                         93.16     
+P50 ITL (ms):                            93.16     
+P75 ITL (ms):                            106.41    
+P90 ITL (ms):                            163.43    
+P95 ITL (ms):                            251.68    
+P99 ITL (ms):                            424.27    
+----------------End-to-end Latency----------------
+Mean E2EL (ms):                          81350.63  
+Median E2EL (ms):                        111551.92 
+P50 E2EL (ms):                           111551.92 
+P75 E2EL (ms):                           125540.04 
+P90 E2EL (ms):                           127980.32 
+P95 E2EL (ms):                           129305.25 
+P99 E2EL (ms):                           131717.39 
+==================================================
